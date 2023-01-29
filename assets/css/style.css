@@ -1,0 +1,209 @@
+
+.items ul{
+    display: flex;
+    list-style: none;
+    height: 100px;
+    align-items: center;
+}
+
+.items li{
+    margin-left: 10px;
+    font-size: 22px;
+}
+
+.items li a{
+    text-decoration: none;
+}
+
+.items ul .line{
+    height: 35px;
+    width: 1px;
+    background-color: black;
+    margin-left: 10px;
+}
+
+.content p img{
+    width: 200px;
+    height: 200px;
+    float: left;
+    padding: 10px;
+}
+.content{
+    width: 600px;
+   
+}
+
+.box{
+    width: 300px;
+    height: 100px;
+    overflow: scroll;
+    background-color: aqua;
+    padding: 10px;
+    margin: 20px    
+}
+
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box; 
+}
+
+.box p{
+    text-indent: 5px;
+    letter-spacing: 2px;
+}
+
+a:hover{
+    color: black;
+    background-color: magenta;
+}
+
+.item1{
+    width: 100px;
+    height: 100px;
+    background-color: magenta;
+    
+}
+
+.item2{
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+
+}
+
+.none{
+    display: none;
+}
+
+.boy{
+    display: flex;
+    gap:10px;
+    margin-top: 10px;
+}
+@font-face {
+    font-family: P130;
+    src: url(../Fonts/DancingScript-VariableFont_wght.ttf);
+}
+
+
+h2{
+    margin: 70px;
+    font-size: 30px;
+    font-family: P130;
+}
+
+body{
+   font-family: P130;
+}
+
+.icon{
+    font-size: 40px;
+    color: red;
+    margin-left: 100px;
+}
+a{
+    text-decoration: none;
+}
+
+.icon .icon-cart{
+    font-size: 80px;
+    border: 5px solid rgb(180, 171, 171);
+    padding: 10px;
+    background-color: rgb(115, 61, 61);
+    margin-left: 10px;
+    margin-top: 10px;
+    color: aqua    
+}
+
+.icon {
+    cursor: pointer;
+}
+
+sup{
+    position: absolute;
+    top: 763px;
+    font-size: 20px;
+    background-color: rgb(203, 154, 252);
+    border-radius: 50%;
+    padding: 9px;
+    height: 40px;
+    width: 30px;
+}
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #dddddd;
+  }
+
+  .students a{
+    text-decoration: none;
+    display: block;
+  }
+
+  .students .create{
+    width: 50px;
+    height: 50px;
+    background-color: black;
+    color: red;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    float:right; 
+  }
+
+  .students .create a i {
+    color: red;
+    font-size: 30px;
+    padding: 10px;
+    display: block;
+  }
+
+ .students table .icons{
+    display: flex;
+    gap:12px;
+ }
+  
+
+ .students table .icons a:nth-child(1) i {
+    background-color: #cb1111;
+    padding: 3px;
+ }
+
+ .students table .icons a:nth-child(2) i {
+    background-color: #62fb10;
+    padding: 3px;
+ }
+
+ .students table .icons a:nth-child(3) i {
+    background-color: #fd239b;
+    padding: 3px;
+ }
+ 
+ .students table .icons a i{
+    padding: 15px;
+    color: aliceblue;
+    border-radius: 5px;
+ }
+
+ .students h2{
+    text-align: center;
+    font-size: 60px;
+    margin-bottom: 20px;
+    margin-top: 30px;
+ }
+
+ .items li a{
+    font-size: 40px;
+ }
